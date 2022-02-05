@@ -108,9 +108,9 @@ export default class LoginScreen extends Component {
       const result = await Google.logInAsync({
         behaviour: "web",
         androidClientId:
-          "72696421845-lqe44rrjuiggsegp1uv4gklv34tvl3gc.apps.googleusercontent.com",
+          "738344699376-gnfcg761lie0kh35ffkfdilc3unhpa6a.apps.googleusercontent.com",
         iosClientId:
-          "72696421845-osrvc36bjie4264j4c0812sp5a2egqhj.apps.googleusercontent.com",
+          "738344699376-0ov7u0vpo405lbv6m77ure02vn4u3bkt.apps.googleusercontent.com",
         scopes: ["profile", "email"]
       });
 
